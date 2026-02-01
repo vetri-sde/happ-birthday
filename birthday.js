@@ -1,7 +1,7 @@
 let countdownDiv;
 let firework = [];
 let force;
-let timerEnded = false;
+let timerEnded = true;
 
 function getTargetDate() {
   let now = new Date();
