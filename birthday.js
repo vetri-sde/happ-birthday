@@ -54,7 +54,7 @@ function draw() {
   textSize(30);
   textAlign(CENTER);
   fill(255);
-  text("Happy Birthday\n Shivani🥰\n Stay happy forever!", width / 2, height / 2);
+  text("Happy Birthday\n Vini✨🥰\n Stay happy forever!", width / 2, height / 2);
 }
 
 function mouseClicked() {
