@@ -14,7 +14,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   force = createVector(0, 0.2);
   countdownDiv = select('#timer');
-  frameRate(30);
+frameRate(30);
+if(timer ended){
+countdownDiv.hide(); // 🔥 ADD THIS LINE
+}
+
 }
 
 function draw() {
